@@ -1,0 +1,12 @@
+Producto,Cantidad,Precio,Fecha
+Manzanas,10,1.2,2025-10-01
+Peras,5,,2025-10-02
+,8,0.9,2025-10-03
+Plátanos,-3,1.1,
+Uvas,,2.0,2025-10-05
+Melocotones,-2,,2025-10-06
+Fresas,15,2.5,2025-10-07
+Kiwi,0,1.7,
+,,-1.0,2025-10-09
+Cerezas,-1,2.8,2025-10-10
+
