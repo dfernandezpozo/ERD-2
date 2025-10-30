@@ -1,6 +1,6 @@
 import pandas as pd
 
-df=pd.read_csv("DigiDB_digimonlist.csv")
+df=pd.read_csv(r"C:\Users\Ferni\Desktop\proyecto2-ERD\ERD-2\DigiDB_digimonlist.csv")
 # print(df)
 
 df=df.dropna()

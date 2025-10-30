@@ -1,6 +1,6 @@
 import pandas as pd
 
-df=pd.read_csv("alumnos4.csv")
+df=pd.read_csv(r"C:\Users\Ferni\Desktop\proyecto2-ERD\ERD-2\alumnos4.csv")
 
 media = df["Nota"].mean()
 maximo = df["Nota"].max()
@@ -13,7 +13,7 @@ minimo = df["Nota"].min()
 df["Categoria"]=df["Nota"].apply(lambda x: "Excelente" if x>=9 else "Notable" if x>=7 else "Aprobado" if x>=5 else "Suspendido")
 # print(df)
 
-dfV=pd.read_csv("ventas.csv")
+dfV=pd.read_csv(r"C:\Users\Ferni\Desktop\proyecto2-ERD\ERD-2\ventas.csv")
 #print(dfV)
 
 dfV_sin_espacios=dfV.dropna()
